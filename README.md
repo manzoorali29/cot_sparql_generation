@@ -1,1 +1,1 @@
-# cot_sparql_generation
+# COT based SPARQL generation from NLQ
