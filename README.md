@@ -1,15 +1,20 @@
 ---
-date: '2024-07-04'
+date: '2024-08-14'
 title: 'Cross-Lingual Transfer Learning for Named Entity Recognition in Low-Resource Languages'
 type: 'Master'
-supervisor: dice:HamadaZahera dice:ManzoorAli
+supervisor: dice:HamadaZahera
 contact: dice:ManzoorAli
 ---
 
-## Overview
+This topic investigates the effectiveness of cross-lingual transfer learning for Named Entity Recognition (NER) in low-resource languages. The research focuses on pre-training models on high-resource languages and fine-tuning them on limited annotated datasets of low-resource languages. Special attention is given to addressing the challenges of morphological complexity and data scarcity in these languages. The study builds upon existing research, such as [Wu and Dredze (2019)](https://aclanthology.org/D19-1077/), which demonstrated the effectiveness of mBERT in transferring knowledge to low-resource languages for NER tasks. Exploring techniques used in other sequence labeling tasks, such as [LOREM](https://dl.acm.org/doi/pdf/10.1145/3366423.3380252), for Named Entity Recognition (NER).
 
-This topic would investigate the effectiveness of cross-lingual transfer learning for performing Named Entity Recognition (NER) in low-resource languages. The thesis would involve pre-training a model on high-resource languages, and then fine-tuning it on annotated datasets of low-resource languages. Special attention would be given to the challenges of morphological complexity and the scarcity of annotated data in these languages. The research could also explore innovative data augmentation techniques and the use of unsupervised or semi-supervised methods to improve the availability of training data
-For instance, Wu and Dredze (2019) demonstrated that mBERT, when fine-tuned on NER datasets from multiple high-resource languages, can effectively transfer knowledge to low-resource languages, achieving competitive results without the need for extensive annotated data in the target language. Similarly, the work by Rahimi, Li, and Cohn (2019) utilized cross-lingual word embeddings to enhance NER in low-resource languages, showing that shared multilingual representations can bridge the gap between languages. These studies underscore the potential of cross-lingual transfer learning as a powerful strategy for addressing the limitations faced by NER systems in low-resource languages, ultimately contributing to more inclusive and diverse natural language processing tools.
+## Key research objectives include:
+
+- Investigating state-of-the-art methods in cross-lingual NER
+- Developing novel approaches for knowledge transfer from high-resource to low-resource languages
+- Exploring innovative data augmentation techniques to generate labeled data for low-resource languages
+- Implementing and evaluating transfer learning approaches to surpass existing benchmarks
+- Investigating unsupervised and semi-supervised methods to improve training data availability
 
 ### Research Gaps
 
@@ -18,22 +23,10 @@ Limited exploration of unsupervised methods for cross-lingual NER: Most existing
 ### Tasks
 
 - Investigate the state-of-the-art in cross-lingual NER
-- Develop an approach for transferring knowledge from model trained on high resource language to low resource language. 
-- Data augmentation techniques for generating labelled data for low resource languages.
-- Transfer learning approach to train a model to surface the existing benchmarks
-- Documentation of all the module steps performed during the whole process
+- Develop an approach for transferring knowledge from a model trained on high resource language to low resource language. 
+- Data augmentation techniques for generating labeled data for low resource languages
 
-### Useful Resources
 
-- The Surprising Cross-Lingual Effectiveness of BERT
-  https://aclanthology.org/D19-1077/ 
-- Massively Multilingual Transfer for NER
- https://aclanthology.org/P19-1015/ 
-- A survey on Named Entity Recognition—datasets, tools, and methodologies https://www.sciencedirect.com/science/article/pii/S2949719123000146 
-- Cross Lingual Named Entity Recognition using Deep Learning
-  https://scholarworks.calstate.edu/downloads/c247f136q 
-- A Comprehensive Survey on Transfer Learning
-https://ieeexplore.ieee.org/abstract/document/9134370/?casa_token=_oo20BaCEbUAAAAA:M51WIX96HO4Ju4rkZld_1_3JfEUzw6gPd6ESDc7rk-AC6W819FkcnS6FK9xRoRS6DdTpPzIIs0E 
 
 ### Prerequisites
 
